@@ -1,5 +1,5 @@
 const count = 10;
-const apiKey = 'ue1rpe8lolEDpyL5SHlCG8bWYqk1fCvNp3_Ng6a1IQg';
+const apiKey = process.env.API_KEY;
 const apiUrl = `https://api.unsplash.com/photos/random?client_id=${apiKey}&count=${count}`;
 
 
